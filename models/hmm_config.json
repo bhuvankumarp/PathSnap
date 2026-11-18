@@ -1,0 +1,9 @@
+{
+  "alpha": 1.0,
+  "beta": 5.0,
+  "unreachable_logp": -50.0,
+  "gap_break_s": 120.0,
+  "max_speed": 50.0,
+  "stride": 5,
+  "selected_on": "OOF probabilities, first 30 train trips"
+}

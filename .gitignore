@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+features/
+results/predictions/
+logs/
+# raw hackathon data is distributed by the organisers (see README "Data");
+# evaluator-testing data in particular must never be committed
+data/
+docs/
+.venv/

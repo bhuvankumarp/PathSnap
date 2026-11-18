@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "n_estimators": 200,
+    "learning_rate": 0.04407984038169244,
+    "num_leaves": 16,
+    "min_child_samples": 220,
+    "subsample": 0.6293899908000085,
+    "colsample_bytree": 0.831261142176991,
+    "reg_lambda": 0.017654048052495083,
+    "reg_alpha": 0.12030178871154672
+  },
+  "best_cv_top1": 0.876260208636962,
+  "n_trials": 40,
+  "search_seconds": 891.5272560119629,
+  "sampler": "TPE(seed=42)",
+  "cv": "GroupKFold(5) by trip"
+}
