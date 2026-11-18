@@ -1,0 +1,12 @@
+2026-11-18 15:13:08,582 | INFO | Loaded LightGBM + HMM config {'alpha': 1.0, 'beta': 5.0, 'unreachable_logp': -50.0, 'gap_break_s': 120.0, 'max_speed': 50.0, 'stride': 5, 'selected_on': 'OOF probabilities, first 30 train trips'} | serving partition 'student_test' (10 trips)
+2026-11-18 15:13:13,783 | INFO | GET /trips from 127.0.0.1 -> 200 (5 ms)
+2026-11-18 15:16:30,271 | INFO | PREDICT trip=00000000 top1_hmm=0.9741 top1_clf=0.9441 route_f1=0.9944 obs=501 time=0.91s
+2026-11-18 15:16:30,880 | INFO | PREDICT trip=00000007 top1_hmm=1.0000 top1_clf=0.9151 route_f1=0.9918 obs=271 time=0.40s
+2026-11-18 15:16:31,695 | INFO | PREDICT trip=00000009 top1_hmm=0.9381 top1_clf=0.8905 route_f1=0.9838 obs=210 time=0.51s
+2026-11-18 15:16:33,168 | INFO | PREDICT trip=00000040 top1_hmm=0.9733 top1_clf=0.9399 route_f1=0.9968 obs=599 time=1.14s
+2026-11-18 15:16:33,565 | INFO | PREDICT trip=00000052 top1_hmm=1.0000 top1_clf=0.9623 route_f1=0.9894 obs=53 time=0.13s
+2026-11-18 15:16:35,957 | INFO | PREDICT trip=00000056 top1_hmm=0.9759 top1_clf=0.9187 route_f1=0.9972 obs=787 time=1.40s
+2026-11-18 15:16:36,640 | INFO | PREDICT trip=00000065 top1_hmm=0.8961 top1_clf=0.8636 route_f1=1.0000 obs=154 time=0.47s
+2026-11-18 15:16:38,479 | INFO | PREDICT trip=00000076 top1_hmm=0.9664 top1_clf=0.8960 route_f1=0.9714 obs=298 time=1.54s
+2026-11-18 15:16:39,890 | INFO | PREDICT trip=00000077 top1_hmm=0.8480 top1_clf=0.7407 route_f1=0.9799 obs=783 time=1.08s
+2026-11-18 15:16:40,481 | INFO | PREDICT trip=00000091 top1_hmm=0.9371 top1_clf=0.8457 route_f1=0.9806 obs=175 time=0.41s
